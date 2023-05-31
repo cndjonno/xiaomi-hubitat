@@ -40,7 +40,7 @@ metadata {
 		capability "PushableButton"
 		capability "Sensor"
 
-		attribute "activityLevel", "String"
+		attribute "activityLevel", "Number"
 		attribute "batteryLastReplaced", "String"
 		attribute "lastCheckinEpoch", "String"
 		attribute "lastCheckinTime", "Date"
